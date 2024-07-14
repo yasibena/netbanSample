@@ -1,0 +1,17 @@
+body{
+    background-color:#10141A;
+   }
+   /* .octa {
+     width: 50px;
+     aspect-ratio: 1;
+     --o:calc(50%*tan(-22.5deg));
+     clip-path: polygon(
+       var(--o) 50%,50% var(--o),
+       calc(100% - var(--o)) 50%,
+       50% calc(100% - var(--o))
+     );
+   } */
+   .polygon {
+     clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
+     background-color: #780120;
+   }
