@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect, useState, useContext } from 'react';
-import axios, { all } from 'axios';
 import EachAssest from './EachAssest';
 import { AppContext } from '../context/AppContext';
 
