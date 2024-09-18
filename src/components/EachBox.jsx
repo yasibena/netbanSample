@@ -12,7 +12,6 @@ import clouds from '../assets/clouds.png'
 import { AppContext } from '../context/AppContext';
 import { Bar } from 'react-chartjs-2'
 import { Chart, registerables } from 'chart.js'
-import { Chart as ChartJS } from 'chart.js'
 
 
 
@@ -44,7 +43,7 @@ export default function EachBox({ e }) {
         iconsColor = '#565392'
         type = 'ip'
     }
-    console.log(e.monitored, 'mm');
+  
 
 
 
