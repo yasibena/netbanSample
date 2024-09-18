@@ -14,4 +14,5 @@ body{
    .polygon {
      clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
      background-color: #780120;
+       color:#ffff;
    }
